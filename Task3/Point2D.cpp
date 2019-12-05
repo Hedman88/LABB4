@@ -1,4 +1,4 @@
-#include "Point2D2.h"
+#include "Point2D.h"
 #include <math.h>
 
 using namespace std;
