@@ -1,0 +1,14 @@
+#include "Card.h"
+#include "Deck.h"
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+	Deck deck;
+	deck.print();
+
+	system("pause");
+	return 0;
+}

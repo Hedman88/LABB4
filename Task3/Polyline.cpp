@@ -56,7 +56,7 @@ int Polyline::nrOfPoints() {
 
 float Polyline::length() {
 	float tot = 0;
-	for (int i = 0; i < actualSize; i++) {
+	for (int i = 0; i < actualSize-1; i++) {
 		tot = tot + getPoint(i).distance(getPoint(i+1));
 	}
 	cout << endl;
