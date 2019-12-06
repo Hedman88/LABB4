@@ -6,8 +6,8 @@ using namespace std;
 
 int main() {
 
-	Deck deck;
-	deck.print();
+	Deck d;
+	d.print();
 
 	system("pause");
 	return 0;
